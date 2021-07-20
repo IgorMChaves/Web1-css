@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONSULTA</title> 
+    <link rel="stylesheet" type="text/css" href="css/estilo5.css">  
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <img src="./imagens/menu azul claro.svg" alt="MENU" />
+            <img src="imagens/image 24 (1).svg" alt="PESQUISA" />
+        </div>
+        <img class="titulo" src="imagens/titulo consulta.svg" alt="TITULO" />
+        <div class="titulo-descubra-mais">
+            <h4>CONHEÇA NOSSOS </h4>
+            <h4>DEPARTAMENTOS</h4>
+        </div>
+        <a href="pagina3.html">
+            <img class="descubra-mais" src="imagens/descubra mais.svg" alt="DESCUBRA MAIS" />
+        </a>
+    </header>
+    <main>
+        <fieldset>
+            <legend>Dados pessoais e endereço</legend>
+            <table cellspacing="10">               
+            <tr>
+                <td>
+                    <label for="nome">Nome: </label>
+                </td>
+                    <td align="left">
+                        <input type="text" name="email">
+                    </td>
+                <td>
+                    <label for="sobrenome">Sobrenome: </label>
+                </td>
+                <td align="left">
+                    <input type="text" name="sobrenome">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Nascimento: </label>
+                </td>
+                <td align="left">
+                    <input type="text" name="dia" size="2" maxlength="2" value="dd"> 
+                    <input type="text" name="mes" size="2" maxlength="2" value="mm"> 
+                    <input type="text" name="ano" size="4" maxlength="4" value="aaaa">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>CPF:</label>
+                </td>
+                <td align="left">
+                    <input type="text" name="cpf" size="9" maxlength="9"> - <input type="text" name="cpf2" size="2" maxlength="2">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="rua">Rua:</label>
+                </td>
+                <td align="left">
+                    <input type="text" name="rua">
+                </td>
+                <td>
+                    <label for="numero">Numero:</label>
+                </td>
+                <td align="left">
+                    <input type="text" name="numero" size="4">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="bairro">Bairro: </label>
+                </td>
+                <td align="left">
+                    <input type="text" name="bairro">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="cidade">Cidade: </label>
+                </td>
+                <td align="left">
+                    <input type="text" name="cidade">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="cep">CEP: </label>
+                </td>
+                <td align="left">
+                    <input type="text" name="cep" size="5" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3">
+                </td>
+            </tr>
+            </table>
+        </fieldset>
+        <br />
+        <fieldset>        
+            <legend>Dados clínicos</legend>
+            <table cellspacing="10">
+            <tr>
+                <td>
+                    <label for="data e hora">Hora e data (consulta):</label>
+                    <input type="datetime-local" id="data e hora" name="data e hora">
+                </td>
+            <tr>
+                <td>
+                    <label for="especialidade">Especialidade:</label>
+                </td>
+                    <td>
+                    <select name="especialidade"> 
+                        <option value="Neurocirurgia">Neurocirurgia</option> 
+                        <option value="Cirurgia Cardiotorácica">Cirurgia Cardiotorácica</option> 
+                        <option value="Cirurgia Geral">Cirurgia Geral</option> 
+                        <option value="Pediatria e Maternidade">Pediatria e Maternidade</option> 
+                    </select>
+                </td>
+            </tr>
+            </table>
+        </fieldset>
+        <br/>
+        <fieldset>        
+            <legend>Contato</legend>
+            <table cellspacing="10">
+            <tr>
+                <td>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="telefone">Número de telefone:</label>
+                    <input type="tel" id="telefone" name="telefone">
+                </td>
+            </tr>
+            </table>
+        </fieldset>
+        <br>
+        </fieldset>
+            <tr>
+                <td>
+                    <input class="enviar" type="submit" value="ENVIAR">
+                </td>
+            </tr>
+        </fieldset>
+    </main>
+    <footer>
+        <div class="elementos">
+            <div class="instagram">
+                <img src="./imagens/INSTAGRAM.svg" alt="INSTAGRAM" />
+            </div>
+            <div class="email">
+                <img src="./imagens/EMAIL.svg" alt="E-MAIL" />
+            </div>
+        </div>
+        <a class="voltar" href="./pagina1.html">VOLTAR À PÁGINA INICIAL</a>
+        <img class="logo-rodape" src="imagens/logo rodape.svg" />
+    </footer>    
+</body>
+</html>
+       
+        
+                

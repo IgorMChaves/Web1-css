@@ -1,0 +1,83 @@
+header{
+    display: flex;
+    background-color: #0E1725;
+    border-style:solid;
+    border-color: #0E1725;
+}
+.menu{
+    margin-top: 7,5px;
+    margin-bottom: 7,5px;
+    width: 150px;
+	display: inline-block;
+}
+.logo{
+    width: 200px;
+    margin-left: 150px;
+    margin-right: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+body {
+    background-color:#1A2A44;
+}
+.menu-mor{
+    display: flex;
+    text-align: end;
+    margin-left: 600px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+    width: 200px;
+}
+.menu-mor2{
+    display: flex;
+    text-align: end;
+    margin-left: 600px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+    width: 200px;
+}
+.link-historia{
+    color: white;
+}
+.link-departamentos{
+    color:white;
+}
+.link-cirurgioes{
+    color:white;
+}
+.link-consulta{
+    color: white;
+}
+.menu1{
+    display: block;
+}
+.menu2{
+    display: block;
+}
+.menu3{
+    display: block;
+}
+.menu4{
+    display: block;
+}
+footer {
+    background-color:#0E1725 ;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.elementos{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.logo-rodape{
+    float: right;
+    width: 250px;
+    margin-right: 30px;
+}
+
+
+
+
